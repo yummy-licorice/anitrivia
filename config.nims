@@ -1,0 +1,3 @@
+--define:beast
+--define:ssl
+--define:release

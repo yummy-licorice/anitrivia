@@ -1,0 +1,13 @@
+# Nimcache
+nimcache/
+cache/
+build/
+
+# Garbage
+*.exe
+*.js
+*.log
+*.lg
+
+# Binaries
+bin

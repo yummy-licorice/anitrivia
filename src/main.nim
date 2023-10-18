@@ -7,11 +7,7 @@ import
   happyx,
   std/random; randomize()
 
-type
-  Anime = object
-    name: string
-    img: string
-    color: string
+include data
 
 let db = initDatabase("db", (string, string))
 let idx = rand(0..db["max"].parseInt())

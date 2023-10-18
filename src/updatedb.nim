@@ -1,6 +1,5 @@
 import supersnappy, zuhyo, jsony, strutils, std/options, limdb, flatty
-
-include data
+import usertypes
 
 let gql = """query ($id: Int) {
   Media (id: $id, type: ANIME) {
